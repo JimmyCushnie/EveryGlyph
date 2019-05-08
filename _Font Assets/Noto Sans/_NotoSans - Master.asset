@@ -1,0 +1,373 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-7301623412627608959
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NotoSans-Regular Atlas Material
+  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 4560983854086995189}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _ColorMask: 15
+    - _Diffuse: 0.5
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 10
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0.9
+    - _ScaleRatioB: 0.73125
+    - _ScaleRatioC: 0.73125
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _SpecularPower: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 4096
+    - _TextureWidth: 4096
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: _NotoSans - Master
+  m_EditorClassIdentifier: 
+  hashCode: -1286113477
+  material: {fileID: -7301623412627608959}
+  materialHashCode: 1911909602
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: dde05dcd116ade049b0a503083bf2825
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: dde05dcd116ade049b0a503083bf2825,
+    type: 3}
+  m_SourceFontFile: {fileID: 12800000, guid: dde05dcd116ade049b0a503083bf2825, type: 3}
+  m_AtlasPopulationMode: 1
+  m_FaceInfo:
+    m_FamilyName: Noto Sans
+    m_StyleName: Regular
+    m_PointSize: 90
+    m_Scale: 1
+    m_LineHeight: 122.58
+    m_AscentLine: 96.21001
+    m_CapLine: 65
+    m_MeanLine: 49
+    m_Baseline: 0
+    m_DescentLine: -26.37
+    m_SuperscriptOffset: 96.21001
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -26.37
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -11.25
+    m_UnderlineThickness: 4.5
+    m_StrikethroughOffset: 19.6
+    m_StrikethroughThickness: 4.5
+    m_TabWidth: 23
+  m_GlyphTable: []
+  m_CharacterTable: []
+  m_AtlasTextures:
+  - {fileID: 4560983854086995189}
+  m_AtlasTextureIndex: 0
+  m_UsedGlyphRects: []
+  m_FreeGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 4095
+    m_Height: 4095
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 4096
+  m_AtlasHeight: 4096
+  m_AtlasPadding: 9
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  m_FallbackFontAssetTable:
+  - {fileID: 11400000, guid: 1fb7c9a38973036459768e4811e0698a, type: 2}
+  - {fileID: 11400000, guid: ca1581c616ffaa94c808357fda8d2ced, type: 2}
+  - {fileID: 11400000, guid: 2f73ba4887a20bc46b0c095a8179e4dd, type: 2}
+  - {fileID: 11400000, guid: 384e45bae3c8c994ca22d7cd565e017d, type: 2}
+  - {fileID: 11400000, guid: 7bff8c590e767b64cb8f89548e056c71, type: 2}
+  - {fileID: 11400000, guid: 3fd3f7d4320f69c408c625dd86e11bb2, type: 2}
+  - {fileID: 11400000, guid: cff1c0fdff21fc64aae8924768e90706, type: 2}
+  - {fileID: 11400000, guid: 16f5e9fda4092c444936459de4e65d8a, type: 2}
+  - {fileID: 11400000, guid: c5d00a0128c4d7246b302d7ead997a1a, type: 2}
+  - {fileID: 11400000, guid: f57cbf0c88c32874f8f85e840b376985, type: 2}
+  - {fileID: 11400000, guid: b58492ddda2ad084c9a53f58cce37cf8, type: 2}
+  - {fileID: 11400000, guid: 903b63e973f86a4418ddc79731c76982, type: 2}
+  - {fileID: 11400000, guid: 6d10297d704ebda478d034d161bbf01d, type: 2}
+  - {fileID: 11400000, guid: 21ccb7d9699a9c0429e01737179055e6, type: 2}
+  - {fileID: 11400000, guid: 095fa098b486a2a4cbf84d263f4a1a58, type: 2}
+  - {fileID: 11400000, guid: dbdee4ee60ea0dc4d88773ab68c7a466, type: 2}
+  - {fileID: 11400000, guid: b1db7d2a2a0b0f446b8ec2a70267f255, type: 2}
+  - {fileID: 11400000, guid: 8faaddc6aaf497346aece1a63cd40156, type: 2}
+  - {fileID: 11400000, guid: f672b5dce2a61aa429a7a085bea39bdc, type: 2}
+  - {fileID: 11400000, guid: a072bb13544705044958f1e5cc43c29e, type: 2}
+  - {fileID: 11400000, guid: 21590a3481893ed4c88478b5f6e49a0b, type: 2}
+  - {fileID: 11400000, guid: 954c639f16cbf304e8e1da8ef50ff2de, type: 2}
+  - {fileID: 11400000, guid: 96e49cd4121c72e4496147cbebeb54c2, type: 2}
+  - {fileID: 11400000, guid: 0ac7a1de4a1c29a4dbf03f7053806785, type: 2}
+  - {fileID: 11400000, guid: 7497b78c7684fd24f9bcffb81132daa9, type: 2}
+  - {fileID: 11400000, guid: 1418dc7fecf1298429c959440d4df05e, type: 2}
+  - {fileID: 11400000, guid: 5df3df3698fb32d4181d33ba1a21e947, type: 2}
+  - {fileID: 11400000, guid: d3f4399a978101244bacbe0a10adcc16, type: 2}
+  - {fileID: 11400000, guid: 4ae5914025983a241aef6d930bd38d7a, type: 2}
+  - {fileID: 11400000, guid: ff02ca6c52d8f074c885ef4b69b400ba, type: 2}
+  - {fileID: 11400000, guid: aff94dded08a9424ebd9855f8daecbc7, type: 2}
+  - {fileID: 11400000, guid: e04aa772f565b5941b761f621b43cc66, type: 2}
+  - {fileID: 11400000, guid: 1ee21bb9653b99143b13afb91517982d, type: 2}
+  - {fileID: 11400000, guid: acbb6c64c20c2c349ba3ca7a93454b14, type: 2}
+  - {fileID: 11400000, guid: 55154789a9240dd42b5b8769da736596, type: 2}
+  - {fileID: 11400000, guid: 6ebe9e57c700be44394818a3fe3b41f5, type: 2}
+  - {fileID: 11400000, guid: b3c6797e2c94e7f4ea4012d5680e3a9b, type: 2}
+  - {fileID: 11400000, guid: 7791f72cdd9fcec49b94b38be09d5049, type: 2}
+  - {fileID: 11400000, guid: 17142bc0f6d96494eb51f1110d2c6c10, type: 2}
+  - {fileID: 11400000, guid: d7f39a17c3631834ba8ea2a084d017e9, type: 2}
+  - {fileID: 11400000, guid: 07d55a2952380b040943765b447601ee, type: 2}
+  - {fileID: 11400000, guid: 7dd329a4bb2fff0449ee01c0c1f8f8fa, type: 2}
+  - {fileID: 11400000, guid: d0fd4adb806900a42aa9a0193ca8703e, type: 2}
+  - {fileID: 11400000, guid: 7b1dd42c46958e24090a8e3b8e1723cc, type: 2}
+  - {fileID: 11400000, guid: fa8bd1e9c6d8b09408c85580c842a744, type: 2}
+  - {fileID: 11400000, guid: 89e677a686f0c4a46be38f3afc611855, type: 2}
+  - {fileID: 11400000, guid: eeed07eacf7e6b347ab703d92f86b169, type: 2}
+  - {fileID: 11400000, guid: b0a17bb1b5df0874384b87155c217128, type: 2}
+  - {fileID: 11400000, guid: 58905447ea3589f4388f6f738102b2f4, type: 2}
+  - {fileID: 11400000, guid: 8c901acc1580cb84a89321b567b99103, type: 2}
+  - {fileID: 11400000, guid: fcc2c13d9ea0eca42a87227c5f61066f, type: 2}
+  - {fileID: 11400000, guid: af3a37125a44a2a48b6a8fcd3d24274c, type: 2}
+  - {fileID: 11400000, guid: aad450aae9084664b9b733165a955ea2, type: 2}
+  - {fileID: 11400000, guid: 289891b105cff504c909e768ff3c0bc6, type: 2}
+  - {fileID: 11400000, guid: 6b64dc1bf7f4402428ecd945ba86ebbf, type: 2}
+  - {fileID: 11400000, guid: f9e61a366b54c1945b301f31d10dbf6a, type: 2}
+  - {fileID: 11400000, guid: 2cd727c5f654f4a47ab0fa7205d330d4, type: 2}
+  - {fileID: 11400000, guid: 22bf4137fcbf62a4b906d7eb89a7863c, type: 2}
+  - {fileID: 11400000, guid: 88a82ea92aa3c7543b90ddda874718e5, type: 2}
+  - {fileID: 11400000, guid: 05ee595f30bef064093b5850debc63c5, type: 2}
+  - {fileID: 11400000, guid: 00ca1086d90f61f4b9d926806095e7a2, type: 2}
+  - {fileID: 11400000, guid: 101c23adfe9255843acb469c3032be41, type: 2}
+  - {fileID: 11400000, guid: 1939eff0001e44745852f3e609238b45, type: 2}
+  - {fileID: 11400000, guid: 879c62fd771a4f0468c38884b92ed7f8, type: 2}
+  - {fileID: 11400000, guid: 306043c234f97134a86af0521cb5b6bf, type: 2}
+  - {fileID: 11400000, guid: 773adb0d003a5534092e3bb2ddce43e4, type: 2}
+  - {fileID: 11400000, guid: 124c8d331ea1d6d45861d3bcca7cc033, type: 2}
+  - {fileID: 11400000, guid: ffa9f7b4d22ff0046b65378ed310147b, type: 2}
+  - {fileID: 11400000, guid: 3d58b2847b1480447af764f414522569, type: 2}
+  - {fileID: 11400000, guid: 751d36a116a36a847809f54208c32d4f, type: 2}
+  - {fileID: 11400000, guid: b14808ab90bc4944fa4adc13a0fe6472, type: 2}
+  - {fileID: 11400000, guid: d55e0174bad1db543aad1ac0bb0c48f6, type: 2}
+  - {fileID: 11400000, guid: fcde00bbeaef8cd4f9a0cd6c0fbada4d, type: 2}
+  - {fileID: 11400000, guid: 50c286a44f1604b4988af17a29cd23f7, type: 2}
+  - {fileID: 11400000, guid: 72f83d925fb8a8e4cbe551c414e6e9d1, type: 2}
+  - {fileID: 11400000, guid: 5c5dc5a3f85693342a2c8d13ee06a4ea, type: 2}
+  - {fileID: 11400000, guid: 7a1ebe750b53f2f4b8a713860dc3015c, type: 2}
+  - {fileID: 11400000, guid: 26d5a50c851b7664db2e866a8c78a576, type: 2}
+  - {fileID: 11400000, guid: 42767143c818403458324871c9f2b6f5, type: 2}
+  - {fileID: 11400000, guid: 288c701a4f82f9d47837ff0ebde509bc, type: 2}
+  - {fileID: 11400000, guid: 569b12259a314964c8e375cf793d192b, type: 2}
+  - {fileID: 11400000, guid: e7b8406ed34bbc141a26452e27be02e2, type: 2}
+  - {fileID: 11400000, guid: b1993d4938874dd4b825b357c40c0507, type: 2}
+  - {fileID: 11400000, guid: ea8cff49ced94aa4f82b7bae39397bf6, type: 2}
+  - {fileID: 11400000, guid: 3896a2e91371ee442a9320ed0daaf1d4, type: 2}
+  - {fileID: 11400000, guid: a476081a67b55a140806f0bf187e1eb2, type: 2}
+  - {fileID: 11400000, guid: 6799877e143343e47ba2e52b7ff19fcd, type: 2}
+  - {fileID: 11400000, guid: ee51b5a9354e8f640a430e764a3d2014, type: 2}
+  - {fileID: 11400000, guid: 82e696143d9d99940aa69d08de79f267, type: 2}
+  - {fileID: 11400000, guid: 3d9dea710df5cd34e8edc74721f8ee9d, type: 2}
+  - {fileID: 11400000, guid: 862178ca24cc6e546a09e4adb9eda7a9, type: 2}
+  - {fileID: 11400000, guid: 6da0215c705e6e74586b94abadb2978e, type: 2}
+  - {fileID: 11400000, guid: 30b59e7fa3907a746b987847b5030e18, type: 2}
+  - {fileID: 11400000, guid: 07bf86cbd46d85c439a8c95013cb303e, type: 2}
+  - {fileID: 11400000, guid: fa945c4219988174d9d2cda8c79c8613, type: 2}
+  - {fileID: 11400000, guid: 24d6fb72e146b314a9ae4ee800723a47, type: 2}
+  - {fileID: 11400000, guid: 4bad21944bdb8f24986718dbe83cc417, type: 2}
+  - {fileID: 11400000, guid: 3e309547d19b7464da7c42db488b0744, type: 2}
+  - {fileID: 11400000, guid: d8c7b16000ff92648b4c783c79d84c89, type: 2}
+  - {fileID: 11400000, guid: a329a50fd09ea594190f00a94922cf0d, type: 2}
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: dde05dcd116ade049b0a503083bf2825
+    pointSizeSamplingMode: 0
+    pointSize: 90
+    padding: 9
+    packingMode: 0
+    atlasWidth: 4096
+    atlasHeight: 4096
+    characterSetSelectionMode: 7
+    characterSequence: 
+    referencedFontAssetGUID: 
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
+--- !u!28 &4560983854086995189
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NotoSans-Regular Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 4096
+  m_Height: 4096
+  m_CompleteImageSize: 16777216
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 16777216
+  _typelessdata:
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
